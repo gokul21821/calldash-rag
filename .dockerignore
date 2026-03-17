@@ -1,0 +1,17 @@
+# Exclude from Docker build context (smaller image, faster builds)
+.env
+.env.*
+.git
+.gitignore
+__pycache__
+*.pyc
+*.pyo
+venv
+.venv
+.pytest_cache
+.mypy_cache
+*.egg-info
+.eggs
+docs
+*.md
+.DS_Store

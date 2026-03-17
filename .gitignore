@@ -1,4 +1,13 @@
 .env
+.env.*
+!.env.example
 /docs
-/venv
-/__pycache__
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
